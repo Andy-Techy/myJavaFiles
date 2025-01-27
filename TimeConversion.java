@@ -1,6 +1,6 @@
+// A program that seems to convert times into various forms.
+
 import java.util.Scanner;
-
-
 public class TimeConversion {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
