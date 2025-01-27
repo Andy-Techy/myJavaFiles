@@ -1,3 +1,5 @@
+// A program to calculate the area of a triangle.
+
 import java.util.Scanner; //importing the scanner class 
 
 
