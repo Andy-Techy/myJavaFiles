@@ -1,3 +1,4 @@
+// this program deals with how to read user inputs
 import java.util.Scanner;
 
 public class ReadingInput {
