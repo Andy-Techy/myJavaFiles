@@ -32,18 +32,15 @@ public class ArrayLists {
         System.out.println(studentNames.get(2));
 
         System.out.println("*************************************");
-        //creating array lists of kid cudi's album
+        //creating array lists music album
         ArrayList<String>albums = new ArrayList<String>();
 
         albums.add("Man on the Moon");
-        albums.
+        albums.add("To pimp a butterfly");
+        albums.add("Graduation");
+        albums.add("Friday Night Lights");
 
-        
-
-
-
-
-
+    
     }
 
 }
