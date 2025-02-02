@@ -5,30 +5,44 @@ public class ArrayLists {
     public static void main(String[] args) {
 
         //creating Array list of students
-        ArrayList<String>stdNames = new ArrayList<String>();
+        ArrayList<String>studentNames = new ArrayList<String>();
 
         //MANIPULATING AND PROCESSING ARRAYLISTS
 
         //adding items to arrays
-        stdNames.add("Mitch");
-        stdNames.add("Mimi");
-        stdNames.add("Divine");
-        stdNames.add("Josie");
-        stdNames.add("kevin");
-        System.out.println(stdNames); //displaying the content of the array
+        studentNames.add("Mitch");
+        studentNames.add("Mimi");
+        studentNames.add("Divine");
+        studentNames.add("Josie");
+        studentNames.add("kevin");
+        studentNames.set(1, "Ricch");
+        System.out.println(studentNames); //displaying the content of the array
 
         //checking if Andy exists in Array List... should return a boolean value
-        System.out.println(stdNames.contains("Andy"));
-        System.out.println(stdNames.contains("divine"));
-        System.out.println(stdNames.contains("Divine"));
+        System.out.println(studentNames.contains("Andy"));
+        System.out.println(studentNames.contains("divine"));
+        System.out.println(studentNames.contains("Divine"));
 
         //checking the size of array
-        System.out.println(stdNames.size());
+        System.out.println(studentNames.size());
 
         //accessing a particular element
-        System.out.println(stdNames.indexOf("Divine"));
+        System.out.println(studentNames.indexOf("Divine"));
 
-        System.out.println(stdNames.get(2));
+        System.out.println(studentNames.get(2));
+
+        System.out.println("*************************************");
+        //creating array lists of kid cudi's album
+        ArrayList<String>albums = new ArrayList<String>();
+
+        albums.add("Man on the Moon");
+        albums.
+
+        
+
+
+
+
 
     }
 
